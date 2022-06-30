@@ -2,7 +2,7 @@
     <header>
         <nav class="container flex place-content-between py-5 nav">
             <div class="flex place-content-center">
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:hidden">
                     <img class="h-6 w-6" src="../assets/icon-menu.svg" alt="Menu Icon">
                 </div>
                 <a href="/" class="ml-8 mr-4">
