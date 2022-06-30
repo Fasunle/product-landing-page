@@ -33,6 +33,9 @@
 <script></script>
 
 <style scoped>
+
+
+
     a{
         cursor: pointer;
     }
@@ -98,7 +101,17 @@
         }
 
         .container{
-            padding: 1em;
+            padding-inline: 1em;
+        }
+    }
+
+    @media (min-width: 401px){
+        .nav-items{
+            display: flex;
+        }
+
+        .container,.nav::after{
+            padding-inline: 4em;
         }
     }
 
