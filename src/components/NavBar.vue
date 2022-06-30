@@ -110,9 +110,6 @@
             display: flex;
         }
 
-        .container,.nav::after{
-            padding-inline: 4em;
-        }
     }
 
 </style>
