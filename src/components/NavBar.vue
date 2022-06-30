@@ -18,8 +18,8 @@
             </div>
 
             <div class="flex imageContainer">
-                <div class="mr-4 flex place-content-center">
-                    <img src="../assets/cart.png" alt="Cart Icon">
+                <div class="mr-4 flex justify-center items-center">
+                    <img  src="../assets/cart.png" alt="Cart Icon">
                 </div>
                 <div class="mx-4">
                     <img src="../assets/image-avatar.png" alt="User Avatar">
@@ -82,7 +82,7 @@
         width: 100%;
         border-radius: 50%;
         aspect-ratio: 1;
-        padding: .2em;
+        padding: .3em;
         object-fit: cover;
         border: 2px solid hsl(26 100% 55% / 0);
     }
