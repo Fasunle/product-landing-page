@@ -1,24 +1,6 @@
 # transfy
 
-## Project setup
-```
-yarn install
-```
+## Home Page Desktop View
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+![image](https://user-images.githubusercontent.com/77301273/176935989-bfbd7fa8-09a3-4884-88cb-b4c7e58c305c.png)
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
