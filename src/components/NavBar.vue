@@ -10,7 +10,7 @@
                     <a href="/">Sneakers</a>
                 </span>
 
-                <ul class="flex sx:hidden mx-5 place-items-center nav-items">
+                <ul class="md:flex hidden mx-5 place-items-center nav-items">
                     <li class="mr-4"><a href="#">Collections</a> </li>
                     <li class="mr-4"><a href="#">Men</a></li>
                     <li class="mr-4"><a href="#">Women</a></li>
