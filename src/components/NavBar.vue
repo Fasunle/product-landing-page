@@ -6,7 +6,7 @@
                     <img class="h-5 w-full" src="../assets/icon-menu.svg" alt="Menu Icon">
                 </div>
 
-                <span class="font-semibold md:text-3xl sm:text-lg mr-8 inline-block place-content-center my-auto">
+                <span class="font-bold text-3xl mr-8 inline-block place-content-center my-auto">
                     <a href="/">Sneakers</a>
                 </span>
 
@@ -49,7 +49,7 @@
 
     .nav-items a::after{
         border-bottom: 5px solid hsl(26 100% 55% / 0);
-        bottom: -140%;
+        bottom: -175%;
         content: "";
         position: absolute;
         left: 0;
