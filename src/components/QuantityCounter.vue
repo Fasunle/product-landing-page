@@ -2,11 +2,11 @@
     <div class="flex">
 
         <div class="flex items-center place-content-around px-8 py-2 bg-gray-50 w-36 rounded-md shadow-md">
-            <span class="cursor-pointer">
+            <span class="cursor-pointer" @click="quantity <= 0 ? 0: quantity--">
                 <img src="../assets/icon-minus.svg" alt="Decrease quantity">
             </span>
-            <span class="mx-2 font-bold">3</span>
-            <span class="cursor-pointer">
+            <span class="mx-2 font-bold">{{quantity}}</span>
+            <span class="cursor-pointer" @click="quantity++">
                 <img src="../assets/icon-plus.svg" alt="Increase quantity">
             </span>
 
@@ -21,7 +21,12 @@
 
 <script>
 export default {
-    name: "QuantityCounter"
+    name: "QuantityCounter",
+    data(){
+        return {
+            quantity: 0
+        }
+    }
 
 }
 </script>
