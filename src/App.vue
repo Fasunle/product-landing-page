@@ -1,28 +1,27 @@
 <template>
 
-  <div class="container mx-auto sm:px-1 md:px-8 lg:px-15">
+  <div class="container mx-auto">
     <NavBar />
+    <Home/>
   </div>
 
-  </template>
+</template>
 
 <script>
 
   import NavBar from './components/NavBar.vue' 
+  import Home from './components/Home.vue' 
 
 
   export default {
     name: 'App',
     components: {
+      Home,
       NavBar
     }
   }
 </script>
 
 <style>
-  /* GLOBAL STYLE */
-  #app {
-    font-size: 1.15rem;
-  }
-
+  /* #app{} */
 </style>
