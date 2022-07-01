@@ -35,12 +35,14 @@
                 Featuring a
                 durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
 
-            <div class="flex mb-2 justify-center sm:justify-start">
-                <b class="text-black text-xl">$125.00</b>
-                <p class="text-orange-600 font-bold rounded-md ml-4 px-2 bg-orange-100">50%</p>
-            </div>
+            <div class="flex justify-between sm:flex-col">
+                <div class="flex mb-2 justify-center sm:justify-start">
+                    <b class="text-black text-xl">$125.00</b>
+                    <p class="text-orange-600 font-bold rounded-md ml-4 px-2 bg-orange-100">50%</p>
+                </div>
 
-            <s class="font-semibold text-gray-400">$250.00</s>
+                <s class="font-semibold text-gray-400">$250.00</s>
+            </div>
 
             <div class="my-8">
                 <QuantityCounter />
