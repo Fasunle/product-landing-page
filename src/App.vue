@@ -23,9 +23,5 @@
 </script>
 
 <style>
-  /* GLOBAL STYLE */
-  #app {
-    font-size: 1.15rem;
-  }
-
+  /* #app{} */
 </style>
