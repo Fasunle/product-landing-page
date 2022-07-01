@@ -9,17 +9,17 @@
 
             <div class="row-span-1 hidden sm:flex gap-4 w-5/6 mx-auto max-w-sm">
                 <div>
-                    <img class="rounded-xl" src="../assets/image-product-1-thumbnail.jpg" alt="Product 1 thumbnail">
+                    <img class="blur-on-active" src="../assets/image-product-1-thumbnail.jpg" alt="Product 1 thumbnail">
                 </div>
                 <div>
-                    <img class="rounded-xl" src="../assets/image-product-2-thumbnail.jpg" alt="Product 2 thumbnail">
+                    <img class="blur-on-active" src="../assets/image-product-2-thumbnail.jpg" alt="Product 2 thumbnail">
 
                 </div>
                 <div>
-                    <img class="rounded-xl" src="../assets/image-product-3-thumbnail.jpg" alt="Product 3 thumbnail">
+                    <img class="blur-on-active" src="../assets/image-product-3-thumbnail.jpg" alt="Product 3 thumbnail">
                 </div>
                 <div>
-                    <img class="rounded-xl" src="../assets/image-product-4-thumbnail.jpg" alt="Product 4 thumbnail">
+                    <img class="blur-on-active" src="../assets/image-product-4-thumbnail.jpg" alt="Product 4 thumbnail">
                 </div>
             </div>
 
