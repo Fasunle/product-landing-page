@@ -2,7 +2,7 @@
     <header>
         <nav class="flex place-content-between pt-5 pb-3 md:py-5 nav">
             <div class="flex place-content-center">
-                <div class="flex justify-center items-center md:hidden w-10 px-2">
+                <div class="flex justify-center items-center sm:hidden w-10 px-2">
                     <img class="h-5 w-full" src="../assets/icon-menu.svg" alt="Menu Icon">
                 </div>
 
@@ -20,8 +20,10 @@
             </div>
 
             <div class="flex user-info">
-                <div class="sm:mr-2 md:mr-4 w-14">
+                <div class="relative mr-2 md:mr-4 w-14">
                     <img class="aspect-1" src="../assets/cart.png" alt="Cart Icon">
+                    <span
+                        class="bg-red-600 text-white text-base p-1 grid place-content-center absolute -top-2 -right-3 rounded-full aspect-1 w-8 overflow-hidden">90</span>
                 </div>
                 <div class="w-14">
                     <img class="aspect-1" src="../assets/image-avatar.png" alt="User Avatar">
@@ -41,13 +43,6 @@
         cursor: pointer;
     }
     
-    .line{
-        height: 20px;
-        width: 100%;
-        background-color: green;
-    }
-
-
     .nav-items a{
         position: relative;
     }
