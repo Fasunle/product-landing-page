@@ -1,5 +1,5 @@
 <template>
-    <div class="flex mt-8">
+    <div class="flex">
 
         <div class="flex items-center place-content-around px-8 py-2 bg-gray-50 w-36 rounded-md shadow-md">
             <span class="cursor-pointer">

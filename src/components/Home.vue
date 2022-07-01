@@ -41,7 +41,9 @@
 
             <s class="font-semibold text-gray-400">$250.00</s>
 
-            <QuantityCounter />
+            <div class="mt-8">
+                <QuantityCounter />
+            </div>
         </div>
 
 
