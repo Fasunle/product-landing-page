@@ -81,18 +81,4 @@
         border-color: hsl(26 100% 55% / 1);
     }
 
-    @media (max-width: 400px){
-        .nav-items{
-            display: none;
-        }
-
-    }
-
-    @media (max-width: 772px){
-        .nav-items{
-            display: none;
-        }
-
-    }
-
 </style>
