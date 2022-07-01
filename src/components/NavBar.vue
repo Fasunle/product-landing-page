@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="flex place-content-between py-5 nav">
+        <nav class="flex place-content-between pt-5 pb-3 md:py-5 nav">
             <div class="flex place-content-center">
                 <div class="flex justify-center items-center md:hidden w-10 px-2">
                     <img class="h-5 w-full" src="../assets/icon-menu.svg" alt="Menu Icon">
@@ -36,11 +36,6 @@
 <script></script>
 
 <style scoped>
-
-
-
-
-
 
     a{
         cursor: pointer;
