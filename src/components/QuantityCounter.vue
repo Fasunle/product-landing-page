@@ -1,7 +1,7 @@
 <template>
-    <div class="flex">
+    <div class="flex flex-col sm:flex-row gap-4">
 
-        <div class="flex items-center place-content-around px-8 py-2 bg-gray-50 w-36 rounded-md shadow-md">
+        <div class="flex items-center place-content-around p-4 sm:py-2 bg-gray-50 w-full sm:w-36 rounded-md shadow-md">
             <span class="cursor-pointer" @click="quantity <= 0 ? 0: quantity--">
                 <img src="../assets/icon-minus.svg" alt="Decrease quantity">
             </span>
@@ -12,9 +12,9 @@
 
         </div>
 
-        <button class="flex justify-between w-56 px-8 py-2 ml-4 rounded-md bg-orange-400 text-white shadow-xl">
+        <button class="flex justify-center w-full sm:w-56 p-4 sm:py-2 rounded-md bg-orange-400 text-white shadow-xl">
             <img src="../assets/icon-cart.svg" alt="Add to cart">
-            <span class="text-lg font-semibold">Add to cart</span>
+            <span class="text-lg font-semibold ml-4">Add to cart</span>
         </button>
     </div>
 </template>
