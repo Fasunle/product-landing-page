@@ -3,8 +3,9 @@
 
         <div class="grid grid-cols-1 md:grid-rows-6">
 
-            <div class="row-span-5 w-full sm:w-5/6 mx-auto mb-6 sm:max-w-sm">
+            <div class="row-span-5 w-full sm:w-5/6 mx-auto mb-6 sm:max-w-sm relative">
                 <img class="h-full sm:rounded-xl" src="../assets/image-product-1.jpg" alt="Product 1">
+                <CartView/>
             </div>
 
             <div class="row-span-1 hidden sm:flex gap-4 w-5/6 mx-auto max-w-sm">
@@ -56,12 +57,14 @@
 <script>
 
     import QuantityCounter from './QuantityCounter.vue'
+import CartView from './CartView.vue'
 
     export default {
         name: 'HomePage',
         components: {
-            QuantityCounter
-        }
+    QuantityCounter,
+    CartView
+}
     }
 </script>
 
