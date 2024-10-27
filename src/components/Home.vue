@@ -1,5 +1,5 @@
 <script setup>
-import QuantityCounter from './QuantityCounter.vue';
+import QuantityCounter from '@/components/QuantityCounter.vue';
 </script>
 
 <template>
